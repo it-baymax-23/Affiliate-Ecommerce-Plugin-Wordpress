@@ -1,0 +1,339 @@
+/***************************************************************
+@
+@	From Button WP CSS
+@
+/**************************************************************/   
+#FromButtonUserReview{  
+	border: 1px solid #EDEDED;
+    overflow: auto;
+    padding: 3px;
+} 
+#FromButtonUserReview .UserReview, #FromButtonUserReview .UserReviewTotal{   
+} 
+#FromButtonUserReview .UserReview .review .myColor{ 
+	display: block;
+    padding-left: 5px;
+}
+#FromButtonUserReview .UserReview .review .myNote{ 
+	background:#FAFAFA;
+    border: 1px solid #DDDDDD;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 165px;
+} 
+#FromButtonUserReview .UserReview .review span{ 
+}
+#FromButtonUserReview .UserReview{  
+	float: right;
+    width: 167px; 
+} 
+#FromButtonUserReview .UserReviewTotal .UserReviewTotalAll{  
+	border-top: 2px solid;
+    display: block;
+}
+#FromButtonUserReview .UserReviewTotal{  
+	float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+}  
+.widget-area .widget h3{
+	margin: 0 !important;
+}
+
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	z-index: 100;
+	display: none;
+}
+.content a{
+	text-decoration: none;
+}
+.popup{
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+	position: absolute;
+	top: 250px;
+	z-index: 101; 
+}
+.content{
+	min-width: 600px;
+	width: 600px;
+	min-height: 150px;
+	margin: 100px auto;
+	background: #f3f3f3;
+	position: relative;
+	z-index: 103;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #000;
+} 
+.content p{
+	clear: both;
+	color: #555555;
+	text-align: center;
+}
+.content p a{
+	color: #d91900;
+	font-weight: bold;
+}
+.content .x{
+	float: right;
+	height: 35px;
+	left: 22px;
+	position: relative;
+	top: -25px;
+	width: 34px;
+    background:url(../images/x.png); 
+	border: medium none;
+}
+.content .x:hover{
+	cursor: pointer;
+}
+#frombutton-a-review-response{ 
+    clear: both; 
+    padding: 5px;
+}
+#FromButton_Popup, #FromButton_Popup legend{ 
+	border: 1px solid #D2D2D2;  
+	border-radius: 3px;
+	padding: 5px;
+}
+#FromButton_Popup h2{
+	text-align: center;
+}
+#Frombutton_my_review{	
+	margin-bottom: 35px;
+}
+#FromButton_Popup .frombuttont_reviews_required{
+	border: 1px solid #F10430; 
+}
+#FromButton_Popup .write-a-review-submit{
+	float: right;
+    margin-bottom: 10px;
+}
+#FromButton_Popup .FromButton64 span{ 
+	border-top: 1px dashed #D2D2D2;
+    clear: both;
+    display: block;
+    padding-top: 5px;
+    text-align: right;
+}
+#FromButton_Popup legend{
+	margin-left: 20px; 
+}
+#FromButton_Popup{
+    margin-top: 30px; 
+    padding-top: 20px;
+    width: 585px;
+}  
+#Frombutton_my_review .frombutton_my_review .value, #Frombutton_my_review .frombutton_my_review .name{ 
+    display: inline-block; 
+}
+#Frombutton_my_review .frombutton_my_review .name input[type="range"]{ 
+	height: 10px;
+}
+#Frombutton_my_review .frombutton_my_review .value input[type="text"]{ 
+	padding: 3px;
+    width: 370px
+}
+#Frombutton_my_review .frombutton_my_review .value{ 
+	float: right;
+}
+#Frombutton_my_review .frombutton_my_review .name{ 
+	float: left; 
+}
+#Frombutton_my_review .frombutton_my_review{ 
+    margin-bottom: 5px;
+    overflow: auto;
+} 
+#frombutton_buy{ 
+    overflow: auto;
+}
+#frombutton_buy  .frombutton_buy_content,#Overlay  .frombutton_buy_content{
+	display: none;	
+}
+#frombutton_buy .buy_now_open{
+	/* background:url(../images/down.png) no-repeat center right;   */
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+    width: 100%;
+	font-weight: bold;
+}
+#frombutton_buy .frombutton_icon{
+   /* height: 60px;*/
+    width: 30%;
+	 
+}
+#frombutton_buy .frombutton_icon img{box-shadow:none;border:none;}
+#frombutton_buy .frombutton_price .span{
+	color: #A8A8A8;
+    display: block;
+    font-size: 12px;
+}
+#frombutton_buy .frombutton_price .price_me{
+    color: #9BCDE6;
+    font-size: 20px;
+    font-weight: bold; 
+}
+#frombutton_buy .frombutton_price {
+	/*line-height: 50px;*/
+	padding:  0;
+	text-align: center;
+	/*width: 175px;*/
+	width:20%;
+	
+}
+#frombutton_buy .frombutton_price ul{padding:0px;margin:0px}
+#frombutton_buy .frombutton_price li{list-style:none;margin:0px}
+#frombutton_buy .frombutton_price, #frombutton_buy .frombutton_icon{
+    float: left; 
+}
+#frombutton_buy .buy_now , #Overlay .buy_now{
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    height: auto;
+   /* margin-top: 15px;*/
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 190px;
+	
+}
+#frombutton_buy .buy_now:hover {
+    opacity: 0.9;
+}
+#frombutton_buy .buy_now2 {  
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    height: auto;
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 190px;
+}
+#frombutton_buy .buy_now2 a{color:#000!important;}
+#frombutton_buy .buy_now_clear{  
+	background:url(../images/up.png) no-repeat right top; 
+    clear: both; 
+	height: 11px;
+	display: none;
+}
+#frombutton_buy .affiliate a{ 
+	color: #FFFFFF;
+    text-decoration: none;
+	font-weight: bold;
+}
+#frombutton_buy .affiliate{
+	border-bottom: 1px solid #CCCCCC;
+    clear: both;
+   /* padding: 10px 0;*/
+    overflow: auto;
+	width: auto;
+
+}
+#Overlay .affiliate{
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    padding: 30px;
+    overflow: auto;
+    width: auto;
+    height: auto;
+}
+#frombutton_buy .affiliate .affiliate_content h2 span,#Overlay .affiliate_content h2 span{
+	color: #8F8F8F;
+    margin-right: 10px;
+}
+#frombutton_buy .affiliate .affiliate_content h2 img,#Overlay .affiliate_content h2 img{
+	margin-right: 10px;
+}
+#frombutton_buy .affiliate .affiliate_content h2,#Overlay .affiliate .affiliate_content{
+	border-bottom: 2px solid #464646;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+	line-height:32px;
+    margin-top: 5px; 
+	margin-bottom: 10px;
+	padding:3px 0px;
+} 
+
+#frombutton_buy .affiliate .affiliate_content,#Overlay .affiliate .affiliate_content{
+	border: 3px solid #000000;
+    display: none;
+    overflow: auto;
+    padding: 5px;
+}
+.review{position: relative;}
+.affiliate .affiliate_addi_offer{font-size: 10px;color:#000;font-weight:normal;line-height: 12px; /*position: absolute; top: 25px; width: 100%;height:15px;*/}
+.affiliate .frombutton_price{position:relative;}
+.aarproduct_color_picker {
+        margin-left: 560px;
+    position: absolute;
+    top: 50px;
+}
+
+.affiliate_area,#Overlay .affiliate_area{
+float: left;
+    vertical-align: middle;
+    width: 100%;
+ margin: 0;
+    height: 75px;
+
+}
+#colorSelector1 {
+    background: url("../images/select.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 36px;
+    position: relative;
+    width: 36px;
+}
+#colorSelector2 {
+    background: url("../images/select.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 36px;
+    position: relative;
+    width: 36px;
+	z-index:999;
+}
+#colorSelector1 div, #colorSelector2 div{
+	 height: 24px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 24px;}
+.affiliate_content h2{margin:0px!important;}	
+
+@media screen and (min-width:180px) and (max-width:360px) {
+	.frombutton_icon{float:none; width:100% !important; min-height:80px !important; margin:auto;}
+	
+#frombutton_buy .frombutton_price, #frombutton_buy .frombutton_icon { width:100% !important; margin:auto !important; float:none !important;}
+#frombutton_buy .buy_now{ float:none !important; margin:0 !important;}
+	}
+@media screen and (min-width:361px) and (max-width:615px) {
+	.frombutton_icon{float:none; width:auto !important; min-height:80px !important; margin:auto;}
+	
+#frombutton_buy .frombutton_price, #frombutton_buy .frombutton_icon { width:auto !important; margin:auto !important; float:none !important;}
+#frombutton_buy .buy_now{ float:none !important; margin:0 !important;}
+
+
+	}	

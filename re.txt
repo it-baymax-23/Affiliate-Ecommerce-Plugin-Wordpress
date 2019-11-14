@@ -1,0 +1,68 @@
+changes history:-
+1. frombutton.class.php line no. 845 -add if condition
+2. frombutton.class.php define function for style1,style2,style3 and style4 on line no. 543
+
+
+public function FromButton_style1(){  
+		$FromButton_plugin_options = array(   
+			'Frombutton_from_text_0' 				=> 'From',
+			'Frombutton_from_color_0' 				=> '#FFF',
+			'Frombutton_from_background_0' 			=> '#00C18A',
+			'Frombutton_from_size_0'				=> '130',
+			'Frombutton_from_height_0'				=> '30',
+			'Frombutton_font_size_0'				=> '17'
+		); 
+		return($FromButton_plugin_options);   	
+	}
+	public function FromButton_style2(){  
+		$FromButton_plugin_options = array(   
+			'Frombutton_from_text_0' 				=> 'From',
+			'Frombutton_from_color_0' 				=> '#FFF',
+			'Frombutton_from_background_0' 			=> '#FF0000',
+			'Frombutton_from_size_0'				=> '130',
+			'Frombutton_from_height_0'				=> '30',
+			'Frombutton_font_size_0'				=> '17'
+		); 
+		return($FromButton_plugin_options);   	
+	}
+	public function FromButton_style3(){  
+		$FromButton_plugin_options = array(   
+			'Frombutton_from_text_0' 				=> 'From',
+			'Frombutton_from_color_0' 				=> '#FFF',
+			'Frombutton_from_background_0' 			=> '#FD5D57',
+			'Frombutton_from_size_0'				=> '130',
+			'Frombutton_from_height_0'				=> '30',
+			'Frombutton_font_size_0'				=> '17'
+		); 
+		return($FromButton_plugin_options);   	
+	}	
+
+'Frombutton_from_background_1' 			=> '#00C18A',
+			'Frombutton_from_background_2' 			=> '#FF0000',
+			'Frombutton_from_background_3' 			=> '#FD5D57',
+
+
+ if($this== 0)
+			{
+			$FromButton = $this->FromButton_Default();
+			 
+			}
+			if($this== 1)
+			{
+			$FromButton = $this->FromButton_style1();
+			
+			
+			}
+			if($this== 2)
+			{
+			$FromButton = $this->FromButton_style2();
+			 
+			}
+			if($this== 3)
+			{
+			$FromButton = $this->FromButton_style3();
+			 
+			}
+1215 page for update
+
+line no.105...powered by.

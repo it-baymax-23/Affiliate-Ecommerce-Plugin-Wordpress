@@ -1,0 +1,304 @@
+/***************************************************************@@	From Button WP CSS 1.0@/**************************************************************/  
+
+#FromButton-icon{
+	background:url(../images/FromButton32.png) no-repeat center;
+}
+
+#addons_meta_box_reviews_83542{
+	overflow: auto;
+}
+
+#frombutton_custom_meta_post{
+     overflow: auto;
+}
+
+#frombutton_custom_meta_post .review, #frombutton_custom_meta_post .affiliate{
+	border-bottom: 1px dashed #000;    
+	margin-bottom: 10px;    
+	padding-bottom: 10px;
+}
+
+#frombutton_custom_meta_post  .FromButton_Clear, #poststuff .inside .FromButton_Clear{
+ 	clear: both;    
+	margin-bottom: 5px;
+}
+
+#frombutton_custom_meta_post .frombutton_required{
+ 	border: 1px solid #F73B2F;
+}
+
+#frombutton_custom_meta_post .review .frombutton_last, #frombutton_custom_meta_post .affiliate .frombutton_last, #postbox-container-2 .frombutton_last{
+  	margin-right: 0 !important;   
+}
+
+#frombutton_custom_meta_post .review .frombutton_default, #frombutton_custom_meta_post .affiliate .frombutton_default, #post-body .frombutton_input, #postbox-container-2 .frombutton_input{
+      width: 38%;
+}
+
+#frombutton_custom_meta_post .review .frombutton_ajax, #frombutton_custom_meta_post .affiliate .frombutton_ajax{
+      width: 38%;
+}
+
+#frombutton_custom_meta_post .review .frombutton_input, #frombutton_custom_meta_post .affiliate .frombutton_input, #post-body .frombutton_input, #postbox-container-2 .frombutton_input{
+  	margin-right: 5px;
+	padding: 5px;
+}
+#postbox-container-3 .frombutton_input
+{
+	padding: 5px;
+}
+ #manage_affiliates .icon .active{
+
+}
+
+ #manage_affiliates .icon i{
+ 	background: none repeat scroll 0 0 #F6F6F6;   
+	border: 1px solid #DFDFDF;    
+	display: block;    
+	height: 50px;    
+	margin-left: 22px;    
+	margin-top: -25px;    
+	padding: 5px; 
+}
+
+#manage_affiliates .icon{
+ 	background:url(../images/help.png) no-repeat;	float: right;    padding: 5px;     height: 18px;
+}
+
+#manage_affiliates .link{
+ 	float: right;    
+	padding: 5px; 
+}
+
+ #manage_price span, #manage_affiliates .affiliate span, #postbox-container-2 .review .help, #manage_affiliates .help,#postbox-container-3 .review .help{
+  	display: inline-block;   
+	margin-right: 5px;    
+	padding: 5px;    
+	width: 30%;
+}
+
+.postbox .inside, .stuffbox .inside .frombutton_submit{
+
+}
+
+#frombutton_submit{
+	float: left;
+}
+
+#frombutton_custom_meta_post .aarproduct_color_picker{
+
+}
+
+#color_picker_color1{
+      display: block;    
+	  float: right;   
+	  width: 215px;
+}
+
+#poststuff .inside fieldset legend{
+ 	padding: 5px 10px 5px 10px; 	
+	font-weight: bold;
+}
+
+#poststuff .inside fieldset {
+ 	padding: 10px ; 
+}
+
+#poststuff .inside fieldset, #poststuff .inside fieldset legend{
+	/* border: 1px dashed #DDDDDD; */    
+	border-radius: 3px;	
+	margin-bottom: 10px; 
+}
+
+#frombutton_messgae h3{
+	font-size: 12px;    
+	margin: 0 auto;    
+	padding: 10px 0 10px 5px;
+}
+
+#frombutton_messgae{
+ 
+}
+
+#postbox-container-1 .frombutton_pro{
+ 	background: url(../images/pro.png) no-repeat scroll center transparent;     
+	display: inline-block;    
+	float: left;    
+	height: 15px;    
+	width: 25px;
+}
+
+.overlay-bg {
+	display: none;	
+	position: fixed;	
+	top: 0;	
+	left: 0;	
+	height:100%;	
+	width: 100%;	
+	background: #000; /* fallback */	
+	background: rgba(0,0,0,0.75);
+}
+
+.overlay-content button{
+    height: 27px !important; 
+}
+
+ .overlay-content {
+	background: #fff;      
+	border-radius: 4px 4px 4px 4px;   
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);    
+	left: 50%;   
+	margin: 0 0 0 -20%;    
+	overflow: auto;    
+	padding: 1%;   
+	position: relative;    
+	top: 15%;   
+	width: 40%;
+}
+
+ #poststuff .best_choice img{
+	border: 1px solid #DDDDDD;   
+	border-radius: 5px 5px 5px 5px;  
+	padding: 2px;
+}
+
+#poststuff .best_choice a{
+	text-decoration:none;
+}
+
+#poststuff .best_choice, #poststuff .overlay-content p{
+    text-align: center; 
+}
+
+#poststuff .best_choice{
+   	border: 1px dashed #CCCCCC; 
+}
+
+#frombutton-tab{
+    overflow: auto;
+}
+
+#frombutton-tab .tab-nav{
+    height: 40px;    
+	overflow: hidden;
+}
+
+ #frombutton-tab .tab-nav ul .active a{
+  	font-weight: bold;	
+	background: none repeat scroll 0 0 #FFF;
+}
+
+#frombutton-tab .tab-nav ul li{
+	float: left;    
+	width: 180px;	
+	margin-right:5px;
+}
+
+#frombutton-tab .tab-nav ul li a{
+ 	background: none repeat scroll 0 0 #DAE6F1;	
+	border-radius: 3px 3px 0 0;  
+	border-top: 1px solid #DFDFDF; 
+	border-left: 1px solid #DFDFDF;  
+	border-right: 1px solid #DFDFDF;  
+	display: block;  
+	margin: 0 auto; 
+	padding: 5px;  
+	text-decoration: none;
+}
+
+#frombutton-tab .tab-content{
+ 	background: none repeat scroll 0 0 #FFFFFF;	
+	border-left: 1px solid #DFDFDF; 
+	border-right: 1px solid #DFDFDF; 	
+	border-bottom: 1px solid #DFDFDF;   
+	margin-bottom: 20px;
+}
+
+#frombutton-tab .tab-content .tab-panel{
+ 	display:none;   
+	min-height: 220px;   
+	overflow: auto;
+    padding: 10px 5px 5px;
+}
+
+/** 16/11 **/#frombutton_config, #frombutton_config .frombutton_config_left, #frombutton_config .frombutton_config_right{
+     overflow: hidden;
+}
+
+#frombutton_config .frombutton_config_left{
+ 	float: left;   
+	width: 75%;
+}
+
+#frombutton_config .frombutton_config_right{
+ 	float: right;
+	width: 23%;
+}
+
+#frombutton_config .postbox-container{
+ 	width: 100%;
+}
+
+#frombutton_config .frombutton_select{
+     padding: 2px;
+}
+
+.widget .widget-top, .postbox h3, .stuffbox h3{
+	font-weight: normal !important;   
+	padding: 10px;
+}
+
+#affiliate_add_help{
+	border-left: 5px solid;   
+	margin-top: 10px;   
+	padding: 5px;
+}
+
+#manage_affiliates .button-primary{
+	float:right;
+}
+
+#frombutton_price{
+	float: right;    
+	width: 65% !important;
+}
+
+#manage_affiliates .line, #manage_price .line{
+	border: 1px solid #DFDFDF; 
+	display: block;  
+	float: right;  
+	height: 1px;   
+	margin-right: -5px;  
+	margin-top: -12px; 
+}
+
+#manage_affiliates .line{
+     width: 665px;
+}
+
+#manage_price .line{
+ 	margin-top: -22px;   
+	width: 470px;
+}
+.affiliate_list{
+	padding:12px 0px;
+}
+
+#LoadingImage{ 
+	/* background:url(../images/loader.png) no-repeat; */
+	float: left;
+	width: 100%;
+}
+#LoadingImage #LoadingImageInner {
+  float: left;
+  margin: 0 31%;
+  position: relative;
+  width: 30%;
+}
+#LoadingImageInner > img{
+	/*width: 60%;*/
+}
+.affiliate_help{
+	text-decoration:none;
+	color:#000;
+}
